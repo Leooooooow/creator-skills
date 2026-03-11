@@ -67,8 +67,14 @@ This repo packages exactly that.
 
 ```text
 skills/      # skill folders (SKILL.md + references)
-research/    # demand map, roadmap, plain-language catalog
+research/    # demand map, roadmap, plain-language catalog, validation report
+tests/smoke/ # per-skill smoke test outputs (10/10)
 ```
+
+## Validation
+
+- Smoke-test report: `research/creator-skills-validation-report-2026-03-11.md`
+- Per-skill artifacts: `tests/smoke/*.md`
 
 ## Notes
 
