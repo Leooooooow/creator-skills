@@ -2,32 +2,26 @@
 
 Copyright (c) 2026 Razestar.
 
-This repository is available under **AGPL-3.0** for open-source use.
-A separate commercial license is available from Razestar for organizations that
-want to use this work without AGPL-3.0 obligations.
+This repository is publicly available for non-commercial use under
+**CC BY-NC-SA 4.0**.
 
-## When you need a commercial license
+If you want to use these skills in any commercial context, you need a separate
+paid commercial license from Razestar.
 
-Obtain a separate commercial license if you want to do any of the following
-without complying with AGPL-3.0:
+## Commercial use includes (not exhaustive)
 
-- embed these skills in a closed-source commercial product;
-- offer them as part of a proprietary hosted platform or managed service;
-- white-label, OEM, or resell them under proprietary terms; or
-- distribute derivative versions under terms that conflict with AGPL-3.0.
+- embedding in a paid or revenue-generating product;
+- offering hosted/managed services built on these skills;
+- OEM/white-label resale;
+- agency/client delivery where these skills are part of paid work.
 
-## Important clarification
+## Attribution requirement
 
-AGPL-3.0 itself permits commercial use **when you comply with AGPL-3.0**.
-If you do not want to meet those obligations, get a separate commercial license
-from Razestar.
-
-## Attribution
-
-When you use this work under AGPL-3.0, retain the copyright notice, LICENSE,
-and NOTICE files so attribution to **Razestar** remains intact.
+Under non-commercial use, keep attribution to **Razestar**.
+Under commercial licensing, attribution/display obligations are defined by the
+commercial agreement.
 
 ## Commercial inquiries
 
-For commercial licensing, contact the maintainer of the repository that
-publishes this bundle and reference **Razestar commercial license request**.
+Contact the maintainer of the repository and mention:
+**Razestar commercial license request**.

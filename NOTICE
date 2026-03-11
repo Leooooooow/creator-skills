@@ -1,15 +1,13 @@
 Creator Skills Top 10
 Copyright (c) 2026 Razestar
 
-Author attribution for this bundle and its included skills must be preserved in
-redistributed copies by retaining the copyright notice, LICENSE file, and this
-NOTICE file.
+Attribution is required when redistributing, adapting, or publicly using this
+bundle under CC BY-NC-SA 4.0.
 
-Primary external author name: Razestar
+Minimum attribution should include:
+- name: Razestar
+- source: this repository (or the derivative repository)
+- a note about modifications if changes were made
 
-This repository is offered under the GNU Affero General Public License v3.0
-(AGPL-3.0) or, alternatively, under a separate commercial license from Razestar.
-See COMMERCIAL.md for commercial licensing guidance.
-
-No trademark or branding rights are granted by the open-source license.
-See TRADEMARKS.md.
+Commercial use is not granted by the CC BY-NC-SA license. For commercial use,
+obtain a separate paid commercial license from Razestar (see COMMERCIAL.md).

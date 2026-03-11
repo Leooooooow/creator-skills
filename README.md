@@ -80,23 +80,19 @@ tests/smoke/ # per-skill smoke test outputs (10/10)
 
 - These skills are workflow-first and designed for iterative improvement.
 - Keep language native and human in final outputs; avoid template-sounding copy.
-
 ## License & commercial use
 
 Copyright (c) 2026 **Razestar**.
 
-This bundle is published under **AGPL-3.0** for open-source use.
-If you comply with AGPL-3.0, you may use, modify, and redistribute it under
-that license, including in commercial contexts.
+This bundle is licensed for public community use under
+**CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike)**.
 
-If you want to use these skills in a **closed-source product, hosted platform,
-white-label service, OEM distribution, or any other arrangement that does not
-comply with AGPL-3.0**, obtain a separate commercial license from **Razestar**.
+- Non-commercial use: allowed (with attribution to Razestar).
+- Adaptations: allowed under the same license.
+- Commercial use: requires a separate paid commercial license from Razestar.
 
-Required attribution under open-source use:
-- keep the copyright notice;
-- keep `LICENSE` and `NOTICE` with redistributions; and
-- do not remove author attribution to **Razestar**.
+Attribution should preserve author credit to **Razestar** and indicate if
+changes were made.
 
-Brand names, logos, and related identity are **not** licensed under AGPL-3.0.
-See `LICENSE`, `NOTICE`, `COMMERCIAL.md`, and `TRADEMARKS.md`.
+See `LICENSE`, `NOTICE`, `COMMERCIAL.md`, and `TRADEMARKS.md` for details.
+
