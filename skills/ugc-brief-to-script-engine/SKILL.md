@@ -57,3 +57,17 @@ Include:
 - Respect all mandatory and banned claim constraints.
 - Do not invent scientific/medical claims.
 - Prioritize filmability for small creator teams.
+## License
+
+Copyright (c) 2026 **Razestar**.
+
+This skill is available under **AGPL-3.0** for open-source use. Keep the
+copyright notice, license text, and attribution notices when redistributing or
+modifying it under AGPL-3.0.
+
+If you want to use this skill in a **closed-source product, hosted platform,
+white-label service, OEM distribution, or another arrangement that does not
+comply with AGPL-3.0**, obtain a separate commercial license from **Razestar**.
+
+No trademark or branding rights are granted.
+
