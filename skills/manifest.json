@@ -254,6 +254,18 @@
       "status": "beta",
       "stage": "conversion",
       "priority": 21
+    },
+    {
+      "slug": "tiktok-comment-sales-reply-engine",
+      "category": "Comment Conversion",
+      "problem": "How to convert TikTok comments into safe, actionable sales conversations?",
+      "input": "Comment threads, product facts, offer terms, shipping/return policy, risk constraints",
+      "output": "Intent-tagged reply scripts + CTA ladder + risk-safe alternatives",
+      "best_for": "Pre-sale comment conversion in TikTok Shop workflows",
+      "handoff": "Store winning replies in Creatop comment response templates",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 22
     }
   ]
 }

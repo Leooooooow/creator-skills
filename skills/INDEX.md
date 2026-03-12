@@ -26,6 +26,7 @@ Use it to find the right skill by problem, workflow stage, and expected output.
 | 19 | `promo-calendar-optimizer` | Operations | How should we schedule promos to maximize conversion without operational overload? | Campaign goals, inventory limits, creator slots, paid budget windows | Weekly promo calendar with channel mix, owner tasks, and risk notes | beta | operations |
 | 20 | `creator-outreach-sequence-lab` | Creator Acquisition | How to improve creator outreach reply and conversion rates? | Creator segments, offer structure, proof assets, channel constraints | Multi-step outreach sequence with personalization hooks and follow-up logic | beta | acquisition |
 | 21 | `tiktok-live-objection-handler` | Live Commerce Conversion | How to handle live objections without killing trust or conversion? | Live objections, product facts, offer terms, proof snippets, risk constraints | Objection diagnosis + reply pack + escalation ladder + close prompts | beta | conversion |
+| 22 | `tiktok-comment-sales-reply-engine` | Comment Conversion | How to convert TikTok comments into safe, actionable sales conversations? | Comment threads, product facts, offer terms, shipping/return policy, risk constraints | Intent-tagged reply scripts + CTA ladder + risk-safe alternatives | beta | conversion |
 
 ## How to propose a new skill
 

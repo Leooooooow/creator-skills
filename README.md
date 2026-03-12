@@ -97,6 +97,8 @@ The following 10 skills are now in staged release (GitHub first, ClawHub in wave
 
 - `tiktok-live-objection-handler`
 
+- `tiktok-comment-sales-reply-engine`
+
 ### Repository structure
 
 ```text
