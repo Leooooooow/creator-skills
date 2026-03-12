@@ -266,6 +266,54 @@
       "status": "beta",
       "stage": "conversion",
       "priority": 22
+    },
+    {
+      "slug": "creator-analysis",
+      "category": "Creator Intelligence",
+      "problem": "How to evaluate creators quickly without overcomplicating the decision?",
+      "input": "Creator handles, profile links, niche context, sample metrics or content notes",
+      "output": "Decision-ready creator summary with strengths, risks, fit notes, and next action",
+      "best_for": "Shortlisting and comparing creators before outreach or testing",
+      "handoff": "Send approved creators into outreach or brief workflows",
+      "status": "beta",
+      "stage": "acquisition",
+      "priority": 23
+    },
+    {
+      "slug": "creator-outreach",
+      "category": "Creator Acquisition",
+      "problem": "How to write creator outreach that gets clearer replies and better next steps?",
+      "input": "Creator info, offer angle, proof points, timing, desired CTA",
+      "output": "Primary outreach draft, follow-up draft, personalization hook, CTA options",
+      "best_for": "First-touch outreach and follow-up sequences",
+      "handoff": "Use with creator analysis shortlist and proof assets",
+      "status": "beta",
+      "stage": "acquisition",
+      "priority": 24
+    },
+    {
+      "slug": "comment-replies",
+      "category": "Comment Conversion",
+      "problem": "How to reply to public comments without sounding robotic or pushy?",
+      "input": "Comment text, product context, common objections, reply goal",
+      "output": "Intent-tagged short replies with alternate version and optional CTA",
+      "best_for": "TikTok, Instagram, YouTube, X, and product-page comments",
+      "handoff": "Store winning reply patterns in comment SOPs and templates",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 25
+    },
+    {
+      "slug": "review-analysis",
+      "category": "Voice of Customer",
+      "problem": "How to turn reviews and complaints into clear patterns and action priorities?",
+      "input": "Reviews, complaints, refund notes, support snippets",
+      "output": "Pattern summary, evidence snippets, likely root causes, and recommended actions",
+      "best_for": "Product, content, and operations diagnosis",
+      "handoff": "Convert top patterns into fixes, copy changes, or expectation resets",
+      "status": "beta",
+      "stage": "insight",
+      "priority": 26
     }
   ]
 }
