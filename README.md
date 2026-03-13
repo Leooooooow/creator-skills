@@ -98,6 +98,9 @@ The following skills are now in staged release (GitHub first, ClawHub in waves):
 - `tiktok-comment-reply-templates`
 - `creator-followup-sequence`
 - `affiliate-offer-angle-tester`
+- `creator-brief-checker`
+- `tiktok-content-ideas-refresh`
+- `product-angle-ideas`
 
 ### Repository structure
 
@@ -206,6 +209,9 @@ Output: <输出格式>
 - `tiktok-comment-reply-templates`
 - `creator-followup-sequence`
 - `affiliate-offer-angle-tester`
+- `creator-brief-checker`
+- `tiktok-content-ideas-refresh`
+- `product-angle-ideas`
 
 ### 仓库结构
 

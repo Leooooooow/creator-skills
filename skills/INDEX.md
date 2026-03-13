@@ -34,6 +34,12 @@ Use it to find the right skill by problem, workflow stage, and expected output.
 | 27 | `creator-followup-sequence` | Creator Acquisition | How to follow up with creators after no reply without sounding annoying or robotic? | Original outreach, creator context, offer angle, time since first touch, desired next step | Short follow-up sequence + timing recommendation + stop rule | beta | acquisition |
 | 28 | `affiliate-offer-angle-tester` | Affiliate Conversion | How to test multiple affiliate offer angles before outreach or content production? | Product facts, audience segment, candidate angles, proof assets, constraints | Ranked angle shortlist + risk notes + next test sequence | beta | conversion |
 
+| 29 | `product-angle-ideas` | Content Conversion | How to turn product facts into simple, testable content angles? | Product facts, audience segment, pain points, proof snippets, constraints | Angle list + hook lines + risk notes + test order | beta | conversion |
+
+| 30 | `tiktok-content-ideas-refresh` | Content Planning | How to refresh TikTok topic ideas when recent posts feel repetitive? | Recent topics, comments, audience intent, product context | New topic list + opening lines + 7-day post order | beta | discovery |
+
+| 31 | `creator-brief-checker` | Creator Operations | How to check and improve creator briefs before sending them out? | Original brief, product facts, must-say points, restrictions, delivery rules | Brief health check + risk list + improved brief | beta | operations |
+
 ## How to propose a new skill
 
 Open a GitHub issue with template: **New skill / use-case proposal** and include:

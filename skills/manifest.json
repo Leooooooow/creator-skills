@@ -338,6 +338,42 @@
       "status": "beta",
       "stage": "conversion",
       "priority": 28
+    },
+    {
+      "slug": "product-angle-ideas",
+      "category": "Content Conversion",
+      "problem": "How to turn product facts into simple, testable content angles?",
+      "input": "Product facts, audience segment, pain points, proof snippets, constraints",
+      "output": "Angle list + hook lines + risk notes + test order",
+      "best_for": "Teams preparing scripts and creator briefs before content production",
+      "handoff": "Pass top angle ideas into script generation and creator brief workflows",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 29
+    },
+    {
+      "slug": "tiktok-content-ideas-refresh",
+      "category": "Content Planning",
+      "problem": "How to refresh TikTok topic ideas when recent posts feel repetitive?",
+      "input": "Recent topics, comments, audience intent, product context",
+      "output": "New topic list + opening lines + 7-day post order",
+      "best_for": "Weekly content refresh when engagement starts dropping",
+      "handoff": "Use refreshed topics as the next sprint queue for script production",
+      "status": "beta",
+      "stage": "discovery",
+      "priority": 30
+    },
+    {
+      "slug": "creator-brief-checker",
+      "category": "Creator Operations",
+      "problem": "How to check and improve creator briefs before sending them out?",
+      "input": "Original brief, product facts, must-say points, restrictions, delivery rules",
+      "output": "Brief health check + risk list + improved brief",
+      "best_for": "Reducing creator revisions and delivery confusion",
+      "handoff": "Send improved brief into outreach and collaboration workflows",
+      "status": "beta",
+      "stage": "operations",
+      "priority": 31
     }
   ]
 }
