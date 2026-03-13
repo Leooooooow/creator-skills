@@ -97,6 +97,7 @@ The following skills are now in staged release (GitHub first, ClawHub in waves):
 - `tiktok-live-objection-handler`
 - `tiktok-comment-sales-reply-engine`
 - `creator-followup-sequence`
+- `affiliate-offer-angle-tester`
 
 ### Repository structure
 
@@ -204,6 +205,7 @@ Output: <输出格式>
 - `tiktok-live-objection-handler`
 - `tiktok-comment-sales-reply-engine`
 - `creator-followup-sequence`
+- `affiliate-offer-angle-tester`
 
 ### 仓库结构
 

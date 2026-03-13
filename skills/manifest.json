@@ -326,6 +326,18 @@
       "status": "beta",
       "stage": "acquisition",
       "priority": 27
+    },
+    {
+      "slug": "affiliate-offer-angle-tester",
+      "category": "Affiliate Conversion",
+      "problem": "How to test and rank affiliate offer angles before outreach or content production?",
+      "input": "Product facts, audience segment, candidate angles, proof assets, constraints",
+      "output": "Ranked angle shortlist + risk notes + next test sequence",
+      "best_for": "Affiliate and creator teams validating offer positioning before execution",
+      "handoff": "Use top-ranked angles in outreach scripts and creator brief variants",
+      "status": "beta",
+      "stage": "conversion",
+      "priority": 28
     }
   ]
 }

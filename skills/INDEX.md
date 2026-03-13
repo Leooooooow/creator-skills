@@ -32,6 +32,7 @@ Use it to find the right skill by problem, workflow stage, and expected output.
 | 25 | `comment-replies` | Comment Conversion | How to reply to public comments without sounding robotic or pushy? | Comment text, product context, common objections, reply goal | Intent-tagged short replies with alternate version and optional CTA | beta | conversion |
 | 26 | `review-analysis` | Voice of Customer | How to turn reviews and complaints into clear patterns and action priorities? | Reviews, complaints, refund notes, support snippets | Pattern summary, evidence snippets, likely root causes, and recommended actions | beta | insight |
 | 27 | `creator-followup-sequence` | Creator Acquisition | How to follow up with creators after no reply without sounding annoying or robotic? | Original outreach, creator context, offer angle, time since first touch, desired next step | Short follow-up sequence + timing recommendation + stop rule | beta | acquisition |
+| 28 | `affiliate-offer-angle-tester` | Affiliate Conversion | How to test multiple affiliate offer angles before outreach or content production? | Product facts, audience segment, candidate angles, proof assets, constraints | Ranked angle shortlist + risk notes + next test sequence | beta | conversion |
 
 ## How to propose a new skill
 
