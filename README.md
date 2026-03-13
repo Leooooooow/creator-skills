@@ -8,26 +8,75 @@ Language:
 
 ## English
 
-### Overview
+### Vision
 
-A **continuously growing** skills collection for creators, sellers, and AI operators.
+This repo is not just a prompt collection.
+It is an **ecommerce skill infrastructure** for creators, sellers, affiliates, and operator teams.
 
-Goal: turn real ecommerce workflows into installable skills, validate demand fast,
-and continuously convert winning skills into Creatop-native tools.
+We turn real commercial workflows into installable skills, then use usage feedback to decide what deserves productization inside **Creatop**.
+
+### What this repository is building
+
+A reusable skill layer for high-frequency ecommerce work:
+
+1. discover demand
+2. produce content faster
+3. improve conversion quality
+4. reduce policy/risk mistakes
+5. standardize creator operations
+
+This is our long-term flywheel:
+
+**skills → usage signals → validated demand → product modules (Creatop)**
+
+### Skill System Map
+
+- **Market Intelligence**
+  - trend sensing, topic selection, review mining, demand clustering
+- **Content Production**
+  - hooks, script generation, angle generation, variant planning
+- **Conversion Ops**
+  - comment replies, live objection handling, checkout/revenue friction analysis
+- **Creator Collaboration**
+  - creator selection, outreach, follow-up, brief quality control
+- **Risk & Compliance**
+  - monetization risk checks, claim-safe rewrites, policy-safe wording
+- **Performance & Measurement**
+  - attribution-lite, ROI checks, tracking and pricing diagnostics
+
+### Latest shipped skills (recent wave)
+
+- `affiliate-offer-angle-tester`
+- `product-angle-ideas`
+- `tiktok-content-ideas-refresh`
+- `creator-brief-checker`
+- `tiktok-live-reply-scripts` (renamed to plain-language style)
+- `tiktok-comment-reply-templates` (renamed to plain-language style)
+
+Full catalog:
+- Skills map: [`skills/INDEX.md`](skills/INDEX.md)
+- Machine-readable registry: [`skills/manifest.json`](skills/manifest.json)
+
+### Why this matters for ecommerce teams
+
+Most ecommerce teams do not fail because they lack tools.
+They fail because execution is fragmented:
+
+- data and content teams speak different languages
+- creator briefs are inconsistent
+- conversion scripts are not reusable
+- feedback loops are too slow
+
+This repository provides a standardized skill layer to reduce that fragmentation.
 
 ### Quick Start
 
-- Browse skills map: [`skills/INDEX.md`](skills/INDEX.md)
-- Programmatic registry: [`skills/manifest.json`](skills/manifest.json)
-- Propose new demand: `New skill / use-case proposal` issue template
-- Co-build link: https://qingjiu.me
+- Browse all skills: [`skills/INDEX.md`](skills/INDEX.md)
+- Parse all metadata: [`skills/manifest.json`](skills/manifest.json)
+- Propose demand: open issue with `New skill / use-case proposal`
+- Co-build: https://qingjiu.me
 
-### How to get more OpenClaw / agent calls
-
-Important: automatic skill selection is primarily driven by each skill’s
-`SKILL.md` frontmatter (`name` + `description`), not repository README alone.
-
-Use this invocation format when calling from OpenClaw or other agents:
+### Invocation pattern (for OpenClaw / agents)
 
 ```text
 Use <skill-slug> to <goal>.
@@ -36,196 +85,151 @@ Constraints: <channel/risk/time>
 Output: <format>
 ```
 
-Copy-ready examples:
+Examples:
 
-1. `Use creator-search-intent-radar to rank this week’s topics. Input: these 30 comments + TikTok trend notes. Output: top 10 topics with hooks and CTA.`
-2. `Use short-video-hook-lab to improve first 3 seconds. Input: this draft script. Output: 5 ranked hooks with rationale.`
-3. `Use creator-monetization-risk-checker to audit this script. Input: full script text. Output: risk flags + safer rewrites.`
-4. `Use comment-to-content-recycler to convert audience feedback into backlog. Input: these comments/DM snippets. Output: intent clusters + priority list.`
-5. `Use ugc-brief-to-script-engine to convert this sponsor brief into creator-native scripts. Output: 3 angle variants with shot list.`
+1. `Use product-angle-ideas to generate 10 content angles for this product. Input: product facts + audience pain points. Output: ranked angles + hooks + test order.`
+2. `Use tiktok-content-ideas-refresh to refresh next-week topics. Input: last 14 days post topics + comments. Output: 10 new topics + opening lines + 7-day plan.`
+3. `Use creator-brief-checker to improve this campaign brief. Input: original brief + must-say points + restrictions. Output: risk list + copy-ready revised brief.`
 
-### For creators & sellers
+### Release and quality principles
 
-Use these skills to quickly improve:
-- topic selection quality,
-- short-video hooks,
-- script compliance safety,
-- outreach conversion, and
-- weekly execution speed.
-
-Recommended first 3:
-1. `creator-search-intent-radar`
-2. `short-video-hook-lab`
-3. `creator-monetization-risk-checker`
-
-### For developers
-
-This repo is built as a rolling, test-driven skill lab:
-- each skill has clear input/output contracts,
-- demand capture is structured via issue forms,
-- winning patterns are fed into Creatop product workflows.
-
-### Current published skills (rolling list, currently 10)
-
-| Skill | Core problem solved |
-|---|---|
-| `creator-search-intent-radar` | What to post next based on demand signals |
-| `short-video-hook-lab` | How to improve first-3-second retention |
-| `creator-deal-ops` | How to run sponsor deals with less friction |
-| `cross-platform-recut-planner` | How to repurpose one idea across platforms |
-| `creator-monetization-risk-checker` | How to reduce monetization/distribution risk |
-| `ugc-brief-to-script-engine` | How to turn briefs into creator-native scripts |
-| `creator-attribution-lite` | How to connect content actions to outcomes |
-| `batch-content-sprint-os` | How to ship weekly without burnout |
-| `creator-proof-portfolio-builder` | How to package proof for outreach |
-| `comment-to-content-recycler` | How to convert comments into content pipeline |
-
-### Next demand batch (staged release)
-
-The following skills are now in staged release (GitHub first, ClawHub in waves):
-
-- `tiktok-shop-creator-fit-scorer`
-- `review-defect-miner`
-- `listing-gap-audit`
-- `shopify-tracking-auditor`
-- `price-gap-monitor`
-- `refund-reason-cluster`
-- `ugc-hook-analyzer`
-- `checkout-friction-audit`
-- `promo-calendar-optimizer`
-- `creator-outreach-sequence-lab`
-- `tiktok-live-reply-scripts`
-- `tiktok-comment-reply-templates`
-- `creator-followup-sequence`
-- `affiliate-offer-angle-tester`
-- `creator-brief-checker`
-- `tiktok-content-ideas-refresh`
-- `product-angle-ideas`
+- One skill solves one concrete problem
+- Plain-language naming beats jargon naming
+- Every skill must have:
+  - clear input/output contract
+  - copy-ready template
+  - risk boundaries (no fabricated claims)
+- GitHub-first asset quality, ClawHub-second distribution cadence
 
 ### Repository structure
 
 ```text
-skills/               # SKILL.md folders + INDEX + manifest
-research/             # validation and optimization reports
-tests/smoke/          # smoke-test outputs
-.github/ISSUE_TEMPLATE/ # structured demand intake templates
+skills/                    # skill folders + INDEX + manifest
+research/                  # validation and optimization reports
+tests/smoke/               # smoke artifacts
+.github/ISSUE_TEMPLATE/    # structured demand intake
 ```
 
-### Validation
+### Validation artifacts
 
-- Baseline report: `research/creator-skills-validation-report-2026-03-11.md`
-- Per-skill artifacts: `tests/smoke/*.md`
+- Baseline: `research/creator-skills-validation-report-2026-03-11.md`
+- Smoke outputs: `tests/smoke/*.md`
 
 ---
 
 ## 中文
 
-### 项目概览
+### 项目定位
 
-这是一个**持续增长**的技能集合，面向创作者、电商卖家与 AI 运营团队。
+这个仓库不是“提示词合集”，而是一个面向电商行业的 **Skills 基础设施**。
 
-目标是把真实电商工作流做成可安装的技能，快速验证需求，并把高价值技能持续沉淀为 Creatop 原生工具能力。
+目标用户：
+- TikTok 创作者
+- 电商卖家与运营
+- Affiliate 团队
+- 需要标准化工作流的内容团队
+
+我们把真实业务动作封装成可安装 skills，再用安装与使用反馈去验证需求，最终沉淀到 **Creatop** 产品能力里。
+
+### 我们在做的事情
+
+围绕电商高频工作流，持续建设技能层：
+
+1. 需求洞察
+2. 内容生产
+3. 转化优化
+4. 风险合规
+5. 达人协作
+6. 效果评估
+
+长期飞轮：
+
+**skills 发布 → 使用信号 → 需求验证 → Creatop 工具化**
+
+### 技能体系地图
+
+- **市场洞察（Market Intelligence）**
+  - 趋势/选题/评论洞察/需求聚类
+- **内容生产（Content Production）**
+  - hook、脚本、角度、变体
+- **转化运营（Conversion Ops）**
+  - 评论回复、直播异议处理、转化漏损诊断
+- **达人协作（Creator Collaboration）**
+  - 达人筛选、触达、跟进、brief 质检
+- **风控合规（Risk & Compliance）**
+  - 违规表达检查、安全改写、变现风险控制
+- **数据评估（Performance & Measurement）**
+  - 轻量归因、ROI 预检、定价/追踪诊断
+
+### 最近上线（最新一波）
+
+- `affiliate-offer-angle-tester`
+- `product-angle-ideas`
+- `tiktok-content-ideas-refresh`
+- `creator-brief-checker`
+- `tiktok-live-reply-scripts`（已改为更口语化命名）
+- `tiktok-comment-reply-templates`（已改为更口语化命名）
+
+完整清单：
+- 技能索引：[`skills/INDEX.md`](skills/INDEX.md)
+- 机器可读清单：[`skills/manifest.json`](skills/manifest.json)
+
+### 为什么这套 skills 对电商有意义
+
+电商团队经常不是“不会做”，而是“无法稳定复用”：
+
+- 数据和内容团队断层
+- brief 标准不统一
+- 回复脚本不可复用
+- 反馈回路太慢
+
+这个仓库在做的，就是把这些动作标准化、模块化、可复用化。
 
 ### 快速开始
 
-- 技能总览：[`skills/INDEX.md`](skills/INDEX.md)
-- 程序化清单：[`skills/manifest.json`](skills/manifest.json)
-- 提交需求：使用 `New skill / use-case proposal` 模板
+- 看技能地图：[`skills/INDEX.md`](skills/INDEX.md)
+- 看程序化清单：[`skills/manifest.json`](skills/manifest.json)
+- 提需求：使用 `New skill / use-case proposal` issue 模板
 - 共建入口：https://qingjiu.me
 
-### 如何获得更多 OpenClaw / 其它 Agent 调用
-
-关键点：Agent 的自动技能选择，主要看每个技能的 `SKILL.md` 前置元数据
-（`name` + `description`），README 主要用于人类理解和转化。
-
-建议统一使用下面这种调用格式：
+### Agent 调用格式建议
 
 ```text
-Use <skill-slug> to <目标>。
+Use <skill-slug> to <目标>
 Input: <输入数据/来源>
 Constraints: <限制条件>
 Output: <输出格式>
 ```
 
-可直接复制的示例：
+示例：
 
-1. `Use creator-search-intent-radar to rank this week’s topics. Input: 30条评论+趋势摘要. Output: Top10选题+hooks+CTA.`
-2. `Use short-video-hook-lab to improve first 3 seconds. Input: 当前脚本. Output: 5个排序后的开头方案+原因.`
-3. `Use creator-monetization-risk-checker to audit this script. Input: 完整脚本. Output: 风险点+安全改写.`
-4. `Use comment-to-content-recycler to convert comments into backlog. Input: 评论和私信片段. Output: 意图聚类+优先级内容池.`
-5. `Use ugc-brief-to-script-engine to convert sponsor brief to scripts. Output: 3个角度+分镜shot list.`
+1. `Use product-angle-ideas to generate 10 content angles...`
+2. `Use tiktok-content-ideas-refresh to refresh next-week topics...`
+3. `Use creator-brief-checker to improve this campaign brief...`
 
-### 给创作者与卖家
+### 发布与质量规则
 
-这套技能主要帮助你提升：
-- 选题质量
-- 短视频前 3 秒表现
-- 脚本合规性
-- 外联转化
-- 周度执行效率
-
-建议先从这 3 个开始：
-1. `creator-search-intent-radar`
-2. `short-video-hook-lab`
-3. `creator-monetization-risk-checker`
-
-### 给开发者
-
-这个仓库是滚动迭代、测试驱动的 skill lab：
-- 每个技能都有明确输入/输出契约
-- 通过 issue 模板结构化收集需求
-- 把验证有效的模式回流到 Creatop 产品工作流
-
-### 当前已发布技能（滚动更新，当前 10 个）
-
-| Skill | 解决的核心问题 |
-|---|---|
-| `creator-search-intent-radar` | 下一条内容该发什么 |
-| `short-video-hook-lab` | 如何提升前 3 秒留存 |
-| `creator-deal-ops` | 如何更稳地管理品牌合作流程 |
-| `cross-platform-recut-planner` | 如何把一个创意跨平台重剪 |
-| `creator-monetization-risk-checker` | 如何降低变现/分发风险 |
-| `ugc-brief-to-script-engine` | 如何把 brief 变成可拍脚本包 |
-| `creator-attribution-lite` | 如何做轻量归因和结果回看 |
-| `batch-content-sprint-os` | 如何周更不断更且不过载 |
-| `creator-proof-portfolio-builder` | 如何整理案例证明提升合作转化 |
-| `comment-to-content-recycler` | 如何把评论/私信变成选题池 |
-
-### 下一批需求技能（分批发布）
-
-以下技能已进入分批发布（先 GitHub，后 ClawHub 分波次）：
-
-- `tiktok-shop-creator-fit-scorer`
-- `review-defect-miner`
-- `listing-gap-audit`
-- `shopify-tracking-auditor`
-- `price-gap-monitor`
-- `refund-reason-cluster`
-- `ugc-hook-analyzer`
-- `checkout-friction-audit`
-- `promo-calendar-optimizer`
-- `creator-outreach-sequence-lab`
-- `tiktok-live-reply-scripts`
-- `tiktok-comment-reply-templates`
-- `creator-followup-sequence`
-- `affiliate-offer-angle-tester`
-- `creator-brief-checker`
-- `tiktok-content-ideas-refresh`
-- `product-angle-ideas`
+- 一个 skill 只解决一个明确问题
+- 命名优先“大白话可搜索”，不堆术语
+- 每个 skill 必须具备：
+  - 输入输出契约
+  - 可直接复用模板
+  - 风险边界说明（不造假、不夸大）
+- GitHub 先沉淀质量，ClawHub 按节奏分发
 
 ### 仓库结构
 
 ```text
-skills/               # SKILL.md 目录 + INDEX + manifest
-research/             # 验证与优化报告
-tests/smoke/          # smoke 测试输出
-.github/ISSUE_TEMPLATE/ # 结构化需求模板
+skills/                    # SKILL 目录 + INDEX + manifest
+research/                  # 验证与优化报告
+tests/smoke/               # smoke 测试产物
+.github/ISSUE_TEMPLATE/    # 结构化需求入口
 ```
 
 ### 验证材料
 
 - 基线报告：`research/creator-skills-validation-report-2026-03-11.md`
-- 单技能测试结果：`tests/smoke/*.md`
+- 测试结果：`tests/smoke/*.md`
 
 ---
 
