@@ -52,6 +52,10 @@ This is our long-term flywheel:
 - `creator-brief-checker`
 - `tiktok-live-reply-scripts` (renamed to plain-language style)
 - `tiktok-comment-reply-templates` (renamed to plain-language style)
+- `ugc-variants-generator`
+- `creator-collab-checklist`
+- `tiktok-claim-rewriter`
+- `retention-drop-checker`
 
 Full catalog:
 - Skills map: [`skills/INDEX.md`](skills/INDEX.md)

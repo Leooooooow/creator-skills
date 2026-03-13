@@ -40,6 +40,14 @@ Use it to find the right skill by problem, workflow stage, and expected output.
 
 | 31 | `creator-brief-checker` | Creator Operations | How to check and improve creator briefs before sending them out? | Original brief, product facts, must-say points, restrictions, delivery rules | Brief health check + risk list + improved brief | beta | operations |
 
+| 32 | `ugc-variants-generator` | Content Production | How to generate multiple UGC variants from one base script for faster testing? | Base script, product facts, audience, style preference, CTA goal | 12+ variants + hook/CTA pairs + risk notes + test order | beta | creation |
+
+| 33 | `creator-collab-checklist` | Creator Operations | How to check creator collaboration readiness before launch? | Collaboration goals, deliverables, timeline, revision and payment rules | Readiness check + risk list + launch checklist + alignment note | beta | operations |
+
+| 34 | `tiktok-claim-rewriter` | Risk & Compliance | How to rewrite risky TikTok claims into safer persuasive language? | Raw script, factual proof boundaries, forbidden phrases, audience | Risk map + safer rewrites + alternative phrases | beta | compliance |
+
+| 35 | `retention-drop-checker` | Performance Diagnostics | Why does short-video retention drop and what to fix first? | Script/transcript, retention clues, structure notes, audience | Drop diagnosis + fix actions + next script skeleton | beta | performance |
+
 ## How to propose a new skill
 
 Open a GitHub issue with template: **New skill / use-case proposal** and include:

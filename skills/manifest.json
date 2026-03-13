@@ -374,6 +374,54 @@
       "status": "beta",
       "stage": "operations",
       "priority": 31
+    },
+    {
+      "slug": "ugc-variants-generator",
+      "category": "Content Production",
+      "problem": "How to generate multiple UGC variants from one base script for faster testing?",
+      "input": "Base script, product facts, audience, style preference, CTA goal",
+      "output": "12+ variants + hook/CTA pairs + risk notes + test order",
+      "best_for": "Teams running rapid UGC iteration and A/B content testing",
+      "handoff": "Feed top-performing variants into creator production and paid testing",
+      "status": "beta",
+      "stage": "creation",
+      "priority": 32
+    },
+    {
+      "slug": "creator-collab-checklist",
+      "category": "Creator Operations",
+      "problem": "How to check creator collaboration readiness before launch?",
+      "input": "Collaboration goals, deliverables, timeline, revision and payment rules",
+      "output": "Readiness check + risk list + launch checklist + alignment note",
+      "best_for": "Reducing delays and revision loops in creator campaigns",
+      "handoff": "Use checklist in campaign kickoff SOP and partner onboarding",
+      "status": "beta",
+      "stage": "operations",
+      "priority": 33
+    },
+    {
+      "slug": "tiktok-claim-rewriter",
+      "category": "Risk & Compliance",
+      "problem": "How to rewrite risky TikTok claims into safer persuasive language?",
+      "input": "Raw script, factual proof boundaries, forbidden phrases, audience",
+      "output": "Risk map + safer rewrites + alternative phrases",
+      "best_for": "Pre-publish risk reduction for sales scripts and creator drafts",
+      "handoff": "Use safe rewrites in final script QA and creator briefing",
+      "status": "beta",
+      "stage": "compliance",
+      "priority": 34
+    },
+    {
+      "slug": "retention-drop-checker",
+      "category": "Performance Diagnostics",
+      "problem": "Why does short-video retention drop and what to fix first?",
+      "input": "Script/transcript, retention clues, structure notes, audience",
+      "output": "Drop diagnosis + fix actions + next script skeleton",
+      "best_for": "Teams improving first-seconds retention and completion rate",
+      "handoff": "Convert diagnostics into next script iteration and creative briefing",
+      "status": "beta",
+      "stage": "performance",
+      "priority": 35
     }
   ]
 }
